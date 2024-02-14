@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+/*font-family: 'Nunito Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+/*font-family: 'PT Sans', sans-serif;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* Header start */
+header {
+    width: 100%;
+
+    background-color: #ffffff;
+
+    padding: 20px 100px;
+    color: #565594;
+
+    display: flex;
+    flex-direction: row;
+
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+
+    box-shadow: 0 5px 5px rgb(180, 178, 178);
+
+}
+
+nav {
+    width: 50%;
+
+    text-align: end;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #565594;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #090939;
+}
+
+.logo {
+    width: 50%;
+    /* padding-left: 5%; */
+}
+
+.logo a {
+    font-size: 24px;
+
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #090939;
+}
+
+/* Header end */
+
+
+
+/* Main start */
+main {
+    margin-top: 80px;
+}
+
+/* Part 1 start */
+.part_1 {
+
+    width: 100%;
+    padding: 0px 100px 60px 100px;
+
+
+    background-color: #f2f5f7;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+
+.biography_1 {
+    width: 50%;
+}
+
+.biography_1 h1 {
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+
+.biography_1>a {
+
+    background-color: #565594;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+.biography_1>a:focus {
+    background-color: #5d5ca1;
+}
+
+
+.main_img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.main_img img {
+    width: 517px;
+    height: 748px;
+    border-radius: 75px;
+}
+
+.pr_info {
+    color: #565594;
+    font-size: 18px;
+    position: relative;
+    top: 260px;
+}
+
+/* Part 1 end */
+
+/* "About me" start */
+
+.about_me {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 100px;
+    gap: 120PX;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.my_background {
+    width: 70%;
+}
+
+.skills {
+    width: 30%;
+}
+
+.some_part {
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.some_part img {
+    border-radius: 75px;
+    height: 650px;
+
+}
+
+.sides {
+    width: 334px;
+}
+
+.middle {
+    width: 609px;
+}
+
+/* "About me" end */
+
+/* "Experience" start */
+
+.experience {
+    width: 100%;
+    padding: 100px;
+
+    background-color: #f2f5f7;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 170px;
+}
+
+.work_exp {
+    display: flex;
+    flex-direction: row;
+}
+
+#first_text {
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.second_text_1 {
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.second_text_2 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.second_text_3 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.education,
+.courses {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.left_side_1,
+.right_side_1,
+.left_side_2,
+.right_side_2 .left_side_3,
+.right_side_3 {
+    width: 50%;
+}
+
+/* "Experience" end */
+
+/* Quote start */
+
+.quote {
+    width: 100%;
+    padding-top: 100px;
+    padding-right: 400px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    background-color: #47467a;
+}
+
+.quote h4 {
+    font-size: 32px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #ffffff;
+}
+
+.quote p {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Quote end */
+
+/* "Contact" page start*/
+
+.contact {
+    width: 100%;
+    padding: 100px;
+    padding-top: 75px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.cont_main {
+    width: 50%;
+    padding-top: 70px;
+
+}
+
+.cont_main h1 {
+    font-size: 54px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.cont_pic {
+    width: 50%;
+}
+
+.cont_pic img {
+    border-radius: 75px;
+}
+
+form p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=text], input[type=email] {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #C9C9C9;
+    transition: width 0.4s ease-in-out;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+}
+
+textarea {
+    width: 300px;
+    height: 80px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    margin-top: 2px;
+    background-color: #C9C9C9;
+    transition: width 0.4s ease-in-out;
+    padding-left: 5px;
+    padding-top: 5;
+
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    width: 70%;
+    border: none;
+
+}
+
+input[type=submit] {
+    background-color: #565594;
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+}
+
+input[type=submit] {
+    background-color: #565594;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+}
+
+input[type=submit]:focus {
+    background-color: #636293;
+}
+
+/* "Contact" page end*/
+/* Main end */
+
+
+
+/* Footer start  */
+
+footer {
+    width: 100%;
+
+    background-color: #565594;
+    color: white;
+
+    padding: 100px;
+    padding-right: 150px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.foot_left {
+    width: 50%;
+}
+
+.foot_right {
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.foot_left h1 {
+    font-size: 44px;
+}
+
+.socials a, .foot_cont a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    /* font-family: 'Nunito Sans', sans-serif; */
+}
+
+.socials, .foot_cont {
+    width: 50%;
+}
+
+.foot_cont p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+#first_text {
+    text-decoration: none;
+
+}
+
+/* Footer end */
